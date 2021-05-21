@@ -1,19 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+@extends('layouts.app')
 
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" />
-    <script src="{{ asset('js/app.js') }}" type="text/js" defer></script>
+@section('content')
+<div class="d-flex  align-items-center p-3 px-md bg-white ">
+<h5 class="my-0 mr-md-auto font_weight_normal"> Basic Laravel REST API</h5>
 
-    <title>Laravel Basic REST API</title>
-</head>
-<body>
-<div class="container">
-    @yield('content')
+    <main class="py-4">
+        @yield('content')
+    </main>
 </div>
 
-</body>
-</html>
+@endsection
