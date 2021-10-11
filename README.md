@@ -20,7 +20,7 @@ Projekt powstał na życzenie osoby rekrutującej.
     Wymagane jest połączenie do podstawowej baz danych.
     Standardowy plik env.
     
-    Przykładowe polączenie do bazy wapteki lokalnie: 
+    Przykładowe polączenie do bazy lokalnie: 
     DB_HOST=localhost
     DB_DATABASE=laravel
     DB_USERNAME=root
